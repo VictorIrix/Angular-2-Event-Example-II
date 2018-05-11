@@ -1,0 +1,4 @@
+<div class="ui container" style="margin-top: 5%">
+  <app-user-list [users]="users$ | async" (onCreateUser)="createUser($event)" (onApproveAll)="approveAll($event)"></app-user-list>
+</div>
+
